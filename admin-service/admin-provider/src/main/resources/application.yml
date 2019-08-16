@@ -1,0 +1,10 @@
+spring:
+  profiles:
+    active: dev
+mybatis:
+  mapper-locations: classpath*:com/gpmall/admin/dal/persistence/*Mapper.xml"
+  type-aliases-package: com.gpmall.admin.dal.entitys
+server:
+  port: 8080
+  tomcat:
+    uri-encoding: UTF-8
